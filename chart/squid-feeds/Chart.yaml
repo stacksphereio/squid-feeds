@@ -1,0 +1,7 @@
+apiVersion: v2
+name: squid-feeds
+description: Reef feed aggregator service for SquidStack
+type: application
+version: 0.1.0
+appVersion: "1.0.0"
+# Trigger deployment after helm delete
