@@ -23,10 +23,10 @@ func NewRegionalClient() *RegionalClient {
 			Timeout: 10 * time.Second,
 		},
 		baseURLs: map[string]string{
-			"EU":   getEnvOrDefault("REEF_EU_URL", "http://reef-eu:8080"),
-			"NA":   getEnvOrDefault("REEF_NA_URL", "http://reef-na:8080"),
-			"SA":   getEnvOrDefault("REEF_SA_URL", "http://reef-sa:8080"),
-			"ASIA": getEnvOrDefault("REEF_ASIA_URL", "http://reef-asia:8080"),
+			"EU":   getEnvOrDefault("REEF_EU_URL", "http://squid-reef-eu:8080"),
+			"NA":   getEnvOrDefault("REEF_NA_URL", "http://squid-reef-na:8080"),
+			"SA":   getEnvOrDefault("REEF_SA_URL", "http://squid-reef-sa:8080"),
+			"ASIA": getEnvOrDefault("REEF_ASIA_URL", "http://squid-reef-asia:8080"),
 		},
 	}
 }
