@@ -1,4 +1,4 @@
-module reef-feed-aggregator
+module squid-feeds
 
 go 1.24
 

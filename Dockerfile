@@ -1,4 +1,4 @@
-# reef-feed-aggregator/Dockerfile
+# squid-feeds/Dockerfile
 FROM golang:1.24-alpine AS build
 WORKDIR /app
 COPY go.mod ./
