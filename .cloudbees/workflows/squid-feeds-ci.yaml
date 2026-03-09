@@ -60,7 +60,7 @@ jobs:
       commit_sha: ${{ cloudbees.scm.sha }}
       database_mode: "no-database"
       enable_liquibase: "false"
-      feature_flags_enabled: false
+      feature_flags_enabled: true
     secrets: inherit
     vars: inherit
 
@@ -79,7 +79,7 @@ jobs:
       commit_sha: ${{ cloudbees.scm.sha }}
       database_mode: "no-database"
       enable_liquibase: "false"
-      feature_flags_enabled: false
+      feature_flags_enabled: true
     secrets: inherit
     vars: inherit
 
