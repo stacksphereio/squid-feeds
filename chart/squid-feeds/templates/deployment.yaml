@@ -32,13 +32,13 @@ spec:
                   key: jwtSecret
             {{- end }}
             - name: REEF_EU_URL
-              value: "http://reef-eu:8080"
+              value: "http://squid-reef-eu:8080"
             - name: REEF_NA_URL
-              value: "http://reef-na:8080"
+              value: "http://squid-reef-na:8080"
             - name: REEF_SA_URL
-              value: "http://reef-sa:8080"
+              value: "http://squid-reef-sa:8080"
             - name: REEF_ASIA_URL
-              value: "http://reef-asia:8080"
+              value: "http://squid-reef-asia:8080"
             {{- if .Values.featureFlags.enabled }}
             - name: FM_NAMESPACE
               value: {{ default "squidstack" .Values.featureFlags.namespace | quote }}
