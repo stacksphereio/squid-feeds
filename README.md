@@ -5,7 +5,7 @@ Main aggregator service for the SquidStack Reef Feeds feature. Provides personal
 ## Overview
 
 The squid-feeds service:
-- Validates JWT tokens from kraken-auth
+- Validates JWT tokens from squid-auth
 - Extracts user country from JWT claims
 - Maps country to region (EU, NA, SA, ASIA)
 - Evaluates feature flags to control feed availability
